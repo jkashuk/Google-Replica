@@ -148,3 +148,27 @@ div.footer li {
     vertical-align: bottom;
 }
 
+@media(max-width: 450px;) {
+    div.navigation ul {
+        padding-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 800px) {
+    .cta input {
+        padding: 15px;
+        width: 75%;
+    }
+}
+
+@media(max-width: 500px) {
+    div.footer ul.left {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    div.footer ul.right{
+        padding: 0px;
+    }
+}
